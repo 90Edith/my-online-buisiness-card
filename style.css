@@ -1,0 +1,92 @@
+body{
+    margin:0%;
+    padding:0%;
+    background: url(assets/porto.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+}
+.introduction{
+    width: 40%;
+    height: 100%;
+    float: right;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.profile, .me, .name-headline, .content {
+    
+    background-color: hsla(0, 0%, 100%, .5);
+    text-align: center;
+    font-weight: bold;
+}
+.me{
+    height: 200px;
+    width: 150px;
+    border-radius: 20%;
+    padding: 3px;
+    margin: 20% 30% 0% 13%;
+    background-color: rgba(7, 77, 61, 1);
+}
+.me:hover{
+        transform: scale(1.5);
+        opacity: 1;
+ }
+h2{
+    font-size: 20px;
+    font-style: italic;
+}
+h3{
+    font-size: 25px;
+}
+.fa{
+    padding: 5px;
+}
+.about{
+    font-size: 20px;
+}
+.links{
+    font-size: 25px;
+    font-style: oblique;
+    color: rgba(7, 77, 61, 1);
+    text-transform: uppercase;
+}  
+.button{
+    color: rgba(7, 77, 61, 1);
+    scale: 150%;
+    margin: 5px;
+}  
+.button:hover{
+    transform: scale(1.5);
+}
+ul {
+    list-style-type: none;
+  }
+li {
+    display: inline;
+   }
+.quote{
+    width: 60%;
+    height: 100%;
+    float: left;
+    }
+.paragraph{
+  margin: 70% auto;
+  width: 80%;
+  border: 3px solid rgba(7, 77, 61, 1);
+  border-radius: 5% 5% 5% 0%;
+  padding: 10px;
+  background-color:hsla(0, 0%, 100%, .5);
+}
+.phrase{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.name{
+    text-align: right;
+    font-style:italic;
+    padding-bottom: 0;
+}
+.who{
+    text-align: right;
+    font-size: 13px;
+}
+
